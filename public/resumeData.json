@@ -1,47 +1,30 @@
 {
   "main": {
-    "name": "Tim Baker",
-    "occupation": " Full Stack Software Engineer",
-    "description": " currently employed by ",
-    "employer": "Instant Domain Search",
-    "jobDescription": "push pixels, shuffle data, and slap my keyboard until everything works",
-    "image": "profile_pic.jpg",
-    "bio": "I am an athlete at heart, with an entrepreneurial spirit, a knack for online security, and a passion for coding. Born in a small town in Northern BC, I made my move to Victoria where I work as a full stack developer for Instant Domain Search, alongside my many ongoing projects. I love to create and tend to keep a few too many projects on the go at a time. Outside of work I am an avid motorcyclist, soccer player and Muay Thai fighter. I love to travel and lead a fairly nomadic lifestyle. I built much of my early portfolio from beaches of Southeast Asia and dream of being able to take my work with me while travelling the world.",
+    "name": "Adam Khamlichi",
+    "occupation": " Software Engineer student",
+    "description": " currently studying at ",
+    "employer": "Polytechnique de Montréal",
+    "jobDescription": "learn code, conceive projects, and try my best at problem-solving",
+    "image": "PhotoProfessionel.JPG",
+    "bio": "I am a big fan of sports, I love cuisine, and I am a history buff. Born in Montreal, I am originally from Morocco, land of the greatest food on this planet (convince me otherwise).  I am now studying as a Software Engineer and I am looking for experience to hone my coding skills. I am a dreamer who wants to execute my dreams into this reality and I love learning about new cultures. I am a people person that is open-minded to everything new. ",
     "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
-    "email": "tbakerx@gmail.com",
-    "phone": "(250) 793-0920",
+    "email": "khamlichi710@gmail.com",
+    "phone": "(514) 261-1737",
     "address": {
-      "street": "Pacific Avenue",
-      "city": "Victoria",
-      "state": "British Columbia",
-      "zip": "V9A 1L6"
+      "city": "Montreal",
+      "state": "Quebec"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://drive.google.com/uc?export=pdf&id=1JZ_9_koC-W0jVg39lGh8Jd0hwJzv8kqn",
+    "website": "https://adamkhamlichi.vercel.app",
+    "resumedownload": "https://drive.google.com/file/d/1HDcZ3H-xwnHti1usHIJyrB3Dvjz_qpf1/view?usp=sharing",
     "social": [
       {
-        "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
-        "className": "fa fa-facebook"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/adam-khamlichi-11754a252/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "http://instagram.com/tbakerx",
-        "className": "fa fa-instagram"
-      },
-      {
-        "name": "stack-overflow",
-        "url": "https://stackoverflow.com/users/8553186/tim-baker?tab=profile",
-        "className": "fa fa-stack-overflow"
-      },
-      {
         "name": "github",
-        "url": "http://github.com/tbakerx",
+        "url": "https://github.com/AdamKhamlichi",
         "className": "fa fa-github"
       }
     ]
@@ -50,42 +33,24 @@
     "skillmessage": "I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over",
     "education": [
       {
-        "school": "University of Victoria",
+        "school": "Polytechnique de Montréal",
         "degree": "Bachelors in Computer Science, Software Engineering Option",
-        "graduated": "Expected April 2018",
-        "description": "Under the recommendation and Guidance of the Head Coach of the UVIC soccer team, I transferred to the University of Victoria. Here I took my Bachelors of Computer Science with a Software Engineering Specialty and achieved a much more thorough education in the underlying theory, concepts, and science behind more complex programming. It was here that I discovered my passion for scalable application programming (web and mobile), the security behind computer and application systems, and found that I have a knack for understanding complex algorithms."
-      },
-      {
-        "school": "Grande Prairie Regional College",
-        "degree": "Computer Systems Technology",
-        "graduated": "April 2013",
-        "description": "I attended GPRC for my first 2 years of post-secondary on a scholarship for the college soccer team. While here, I studied Computer Systems Technology, a 2 year lead-in to a Bachelors of Computer Science. This was a very hands-on experience focused more on building projects than general theory. Here I built database structures for fictional companies, created small video games, hand-coded Space Invaders from scratch in Assembly Language, built and coded an Arduino Robot to navigate obstacle courses, a lot of Java and C++ programming for data structures, and much more."
+        "graduated": "Expected May 2026",
+        "description": "A person trained in software engineering at Polytechnique Montréal analyzes, designs, and tests large-scale software systems. They work with the latest technologies in cutting-edge application domains and are responsible for all phases of software product development."
       }
     ],
     "work": [
       {
-        "company": "Instant Domain Search",
-        "title": "Full Stack Software Engineer",
-        "years": "October 2020 - Present",
-        "description": "At Instant Domain Search we help you find the perfect domain name faster than anywhere else. I was brought on as an early hire here to help take an application that had seen enormous and steady organic growth and give it the boost it deserved. \n\nAs a member of a very small but talented team, I work across the gamut of our stack. This currently consists of a React/Typescript frontend (recently migrated to Next.js), a new combination of Golang and Rust Servers, and an iOS app (soon to be React Native)."
+        "company": "Best Buy",
+        "title": "Call Agent",
+        "years": "May 2022 - Novembre 2022",
+        "description": "Patiently listening to customer complaints while remaining calm, resolving issues remotely, transferring to the appropriate department based on the situations, using call center software, providing effective and courteous customer service"
       },
       {
-        "company": "Shop Your Own Mortgage",
-        "title": "Software Security Engineer",
-        "years": "August 2017 - October 2020",
-        "description": "For most of my time at Shop Your Own Mortgage, I have worked as a Full Stack Software Engineer. Here I have had the chance to dig in and get my hands dirty with all parts of our software. I have worked with our legacy PHP backend, as well as built new node-based servers for new products. As well, I led the development of V2 of our mobile application written in React Native. I have worked extensively with React/Redux as well as with react hooks. \n\nMore recently, I have been given the opportunity to lead our cybersecurity initiative. As part of our partnership with a number of 3rd parties and our planned expansion into Europe, the need to tighten security and bring our technology up to certain compliance standards has become evident. It is my job to bring us into alignment with these, as well as hardening our security stance as a whole."
-      },
-      {
-        "company": "City of Fort St. John",
-        "title": "Utility Maintenance Technician 1 / Labourer ",
-        "years": "April 2014 - September 2017",
-        "description": "Working for the City of Fort St. John has given me a solid understanding of a city's infrastructure system and what it takes to keep the things working that we take for granted every day. During my time here I have worked in all roles involved in the Water and Sewer Department, with the exception of equipment operating. I worked as a water meter technician programming the meters in people's homes. I worked in location, excavation, installation and repair of water and sewer lines. I learned how to install, dismantle, troubleshoot, and repair the most popular models of fire hydrants. \n\nWhile working for the Water Treatment and Distribution Department, and alongside one partner, we led the first Uni-Directional Flow program our city has done in years. This requires a thorough understanding of the city's water grid to selectively force excessive pressure through a water line in order to clean it. This must be done in a specific order for every line in the city.   "
-      },
-      {
-        "company": "School District 60",
-        "title": "IT Technician",
-        "years": "April 2012 - September 2013",
-        "description": "Here I was in charge of various duties involved in keeping the school district's computer systems running smoothly. I performed a varied range of tasks including, but not limited to, reimaging the laptops that the students were given, setting up computer labs, setting up and troubleshooting servers, secure discarding of sensitive data, and a small amount of network analysis."
+        "company": "Tutorax",
+        "title": "Tutor",
+        "years": "November 2022 - September 2023",
+        "description": "Communicating with students facing challenges, adapting to their situations to offer guidance, using online communication software, being clear in my explanations to articulate situations"
       }
     ],
     "skills": [
@@ -105,72 +70,44 @@
         "image": "react.jpg"
       },
       {
-        "name": "Meteor JS",
-        "description": "I enjoy MeteorJS for it's ease of configuration and its ability to get a full stack prototype up and running quickly. I used MeteorJS in a team for a Startup Programming class in UVIC in conjunction with React to build the MVP for Smirkspace (below in portfolio)",
-        "image": "meteor.jpg"
-      },
-
-      {
         "name": "Node JS",
         "description": "Node JS is my server-side scripting language of choice. The bulk of my experience with it has been in conjunction with MeteorJS-based projects",
         "image": "node.jpg"
       },
       {
-        "name": "Bootstrap 4",
-        "description": "I use Bootstrap more often than not when designing the layout for my sites. It is the framework I am most familiar with and can therefore design more quickly than with others.",
-        "image": "bootstrap.jpg"
-      },
-      {
         "name": "MongoDB",
         "description": "I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
         "image": "mongo.jpg"
-      },
-      {
-        "name": "Heroku",
-        "description": "I use Heroku as my hosting platform for most of my projects because so far they are all unpaid and their free tier is convenient. I also appreciate its integration with Github for such simple deployment.",
-        "image": "heroku.jpg"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
+        "title": "Spotify Clone",
+        "category": "A music player that is based off Spotify",
         "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "url": "https://github.com/AdamKhamlichi/SpotifyClone"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
+        "title": "Escape Game",
+        "category": "A game where you need to escape whilst solving clues",
         "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "url": "https://github.com/AdamKhamlichi/ESCAPE-GAME"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "https://original-thai-food.herokuapp.com/index.html"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "https://github.com/tbakerx/react-resume-template"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Movement tracking robot",
+        "category": "A robot I built for the Philip and Lily Malouf Prize for Winter 2023",
+        "image": "Prix Philip Lila Malouf.jpg",
+        "url": "https://cours.polymtl.ca/inf1900/prixMalouf/"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "I have had the opportunity to work with Tim on multiple occasions which has always been a pleasure. He is driven and motivated with a consistently positive attitude. Tim excels at communicating with others and is always willing to work hard until he solves the problem at hand.",
-        "user": "Alastair Beaumont - Web Developer at AppColony"
+        "text": "Working with Adam is a pleasure. He is very good at combining fun and professionalism to make the experience of work as productive and as memorable as possible. He is passionate and respectful. Adam has good communication skills and is an amazing problem solver",
+        "user": "Mohamed Ali Bachar - Freelance Fullstack Developper"
       }
     ]
   }
