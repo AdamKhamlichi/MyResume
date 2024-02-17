@@ -30,7 +30,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over",
+    "skillmessage": "I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that I really use",
     "education": [
       {
         "school": "Polytechnique de Montréal",
@@ -66,8 +66,13 @@
       },
       {
         "name": "React Js",
-        "description": "I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website template (link below in portfolio) which I used as a starting point for this personal site.",
+        "description": "I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward.",
         "image": "react.jpg"
+      },
+      {
+        "name": "Python",
+        "description": "Python is one of the languages that I tried mastering early on but found that some functionnalities were easier on Python. That made me start my quest for older languages that are more fundamental",
+        "image": "Python.png"
       },
       {
         "name": "Node JS",
@@ -78,6 +83,17 @@
         "name": "MongoDB",
         "description": "I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
         "image": "mongo.jpg"
+      },
+      
+      {
+        "name": "C++",
+        "description": "This is the language that I had the most fun with. I did a lot of robotics with C++ and it has been an absolute pleasure",
+        "image": "C++_logo.png"
+      },
+      {
+        "name": "C#",
+        "description": "My experience with C# is in my video game coding experience. It has been pretty interesting learning the physics behind all those characters that I played",
+        "image": "c-sharp.png"
       }
     ]
   },
@@ -88,12 +104,6 @@
         "category": "A music player that is based off Spotify",
         "image": "SpotifyClone.png",
         "url": "https://github.com/AdamKhamlichi/SpotifyClone"
-      },
-      {
-        "title": "Escape Game",
-        "category": "A game where you need to escape whilst solving clues",
-        "image": "fury-fighting-gear.jpg",
-        "url": "https://github.com/AdamKhamlichi/ESCAPE-GAME"
       },
       {
         "title": "Movement tracking robot",
