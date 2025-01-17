@@ -9,7 +9,7 @@ class About extends Component {
       var bio = this.props.data.bio;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
+      var country = this.props.data.address.country;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
@@ -31,10 +31,10 @@ class About extends Component {
                   <p className="address">
 						   <span>{name}</span><br />
 						   <span>{city}<br />
-						         {state}, {zip}
+						         {state}, {country}
                    </span><br />
 						   <span>{phone}</span><br />
-                     <span><a href="mailto:khamlichi710@gmail.com">{email}</a></span>
+                     <span><a href="mailto:adamkhamlichipro@gmail.com">{email}</a></span>
 					   </p>
                </div>
                <div className="columns download">

@@ -526,6 +526,69 @@ input::-moz-focus-inner {
     padding: 0;
 }
 
+.skills-grid {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr); /* 4 items per row by default */
+   gap: 24px;
+   margin-top: 24px;
+ }
+ 
+ .skill-item {
+   background-color: #fff;
+   padding: 20px;
+   text-align: center;
+   border-radius: 4px;
+   transition: all 0.3s ease-in-out;
+ }
+ 
+ .skill-item:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .skill-item img {
+   width: 65%;
+   height: auto;
+   margin-bottom: 15px;
+ }
+ 
+ .skill-item h5 {
+   font-family: 'opensans-bold', sans-serif;
+   font-size: 16px;
+   color: #313131;
+   margin-bottom: 10px;
+ }
+ 
+ .skill-item p {
+   font-family: 'opensans-regular', sans-serif;
+   font-size: 14px;
+   line-height: 21px;
+   color: #838C95;
+ }
+ 
+ /* Responsive adjustments for skills grid */
+ @media only screen and (max-width: 1024px) {
+   .skills-grid {
+     grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+   }
+ }
+ 
+ @media only screen and (max-width: 767px) {
+   .skills-grid {
+     grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+     gap: 20px;
+   }
+   
+   .skill-item {
+     padding: 15px;
+   }
+ }
+ 
+ @media only screen and (max-width: 460px) {
+   .skills-grid {
+     grid-template-columns: 1fr; /* 1 item per row */
+   }
+ }
 
 /*  7. Forms  --------------------------------------------------------- */
 
@@ -804,3 +867,4 @@ properly.
 	margin-right: auto !important;
 	text-align: center !important;
 }
+

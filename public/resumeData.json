@@ -7,15 +7,16 @@
     "jobDescription": "learn code, conceive projects, and try my best at problem-solving",
     "image": "PhotoProfessionel.JPG",
     "bio": "I am a big fan of sports, I love cuisine, and I am a history buff. Born in Montreal, I am originally from Morocco, land of the greatest food on this planet (convince me otherwise).  I am now studying as a Software Engineer and I am looking for experience to hone my coding skills. I am a dreamer who wants to execute my dreams into this reality and I love learning about new cultures. I am a people person that is open-minded to everything new. ",
-    "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
-    "email": "khamlichi710@gmail.com",
+    "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email",
+    "email": "adamkhamlichipro@gmail.com",
     "phone": "(514) 261-1737",
     "address": {
       "city": "Montreal",
-      "state": "Quebec"
+      "state": "Quebec",
+      "country": "Canada"
     },
     "website": "https://adamkhamlichi.vercel.app",
-    "resumedownload": "https://drive.google.com/file/d/1HDcZ3H-xwnHti1usHIJyrB3Dvjz_qpf1/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1Ajg11LK0QOuKC4xtwnuGh_0lOsuLiuY2/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -37,9 +38,27 @@
         "degree": "Bachelors in Computer Science, Software Engineering Option",
         "graduated": "Expected May 2026",
         "description": "A person trained in software engineering at Polytechnique Montréal analyzes, designs, and tests large-scale software systems. They work with the latest technologies in cutting-edge application domains and are responsible for all phases of software product development."
+      },
+      {
+        "school": "Collège Bois-de-Boulogne",
+        "degree": "College Degree in Informatical and Mathematical Sciences",
+        "graduated": "2022",
+        "description": "Completed a comprehensive program combining computer science and mathematics fundamentals. The curriculum covered essential programming concepts, mathematical modeling, and problem-solving techniques. This degree provided strong foundations in algorithmic thinking and analytical skills, preparing for advanced studies in software engineering."
       }
     ],
     "work": [
+      {
+        "company": "Montreal Heart Institute",
+        "title": "Research Student Internship",
+        "years": "May 2024 - August 2024",
+        "description": "At the Montreal Heart Institute, I am working on a government-funded research project focused on medical applications of artificial intelligence. My responsibilities include developing innovative solutions for previously unresolved healthcare challenges, with a primary focus on creating an application to assist doctors in pre-diagnosis processes. Through this internship, I am gaining hands-on experience with AI technologies in the medical field while contributing to the development of practical healthcare solutions. The project involves collaborating with healthcare professionals to understand their needs and translate them into effective software solutions."
+      },
+      {
+        "company": "Outlier.AI",
+        "title": "AI Trainer",
+        "years": "December 2024 - Present",
+        "description": "As an AI Trainer at Outlier.ai, I am responsible for the comprehensive training and optimization of AI models. My role involves feeding AI models with carefully curated information to ensure accurate training outcomes. I systematically validate model functionality through rigorous testing protocols and implement quality control measures. A key aspect of my position involves teaching AI models to generate contextually appropriate responses by analyzing various scenarios and fine-tuning model outputs. Through this process, I ensure that models not only function correctly but also provide optimal responses based on specific contextual requirements. This work requires a deep understanding of both the technical aspects of AI model training and the importance of context-aware response generation."
+      },
       {
         "company": "Best Buy",
         "title": "Call Agent",
@@ -56,44 +75,63 @@
     "skills": [
       {
         "name": "Git",
-        "description": "I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "description": "Extensive experience with version control in both individual and team projects. Regularly use Git for collaborative development, branch management, and maintaining clean commit histories across multiple projects.",
         "image": "git.jpg"
       },
       {
         "name": "Java",
-        "description": "Java was my first programming language that I started using in college years ago. It is by far the language I am most familiar with in terms of data-structure and algorithm programming.",
+        "description": "Strong foundation in Java programming with extensive experience in data structures and algorithms. Used Java for both academic projects and software development, particularly in creating robust backend solutions.",
         "image": "java.jpg"
       },
       {
-        "name": "React Js",
-        "description": "I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward.",
-        "image": "react.jpg"
-      },
-      {
         "name": "Python",
-        "description": "Python is one of the languages that I tried mastering early on but found that some functionnalities were easier on Python. That made me start my quest for older languages that are more fundamental",
+        "description": "Advanced proficiency in Python, particularly in AI/ML applications. Extensive experience in training and fine-tuning machine learning models, data preprocessing, and creating medical diagnosis applications.",
         "image": "Python.png"
       },
       {
-        "name": "Node JS",
-        "description": "Node JS is my server-side scripting language of choice. The bulk of my experience with it has been in conjunction with MeteorJS-based projects",
-        "image": "node.jpg"
-      },
-      {
-        "name": "MongoDB",
-        "description": "I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
-        "image": "mongo.jpg"
-      },
-      
-      {
         "name": "C++",
-        "description": "This is the language that I had the most fun with. I did a lot of robotics with C++ and it has been an absolute pleasure",
+        "description": "Expertise in C++ through robotics projects and embedded systems development. Won the Philip and Lily Malouf Prize for robotics work using C++ and USART32 technologies.",
         "image": "C++_logo.png"
       },
       {
-        "name": "C#",
-        "description": "My experience with C# is in my video game coding experience. It has been pretty interesting learning the physics behind all those characters that I played",
-        "image": "c-sharp.png"
+        "name": "TensorFlow",
+        "description": "Practical experience in implementing and training AI models using TensorFlow. Developed and maintained models for medical applications and language translation systems with high accuracy rates.",
+        "image": "tensorflow.png"
+      },
+      {
+        "name": "React.js",
+        "description": "Advanced web development skills using React.js. Created responsive and interactive user interfaces for multiple projects, including medical applications and data visualization dashboards.",
+        "image": "react.jpg"
+      },
+      {
+        "name": "MongoDB",
+        "description": "Proficient in NoSQL database design and management using MongoDB. Implemented database solutions for AI training data storage and real-time application data management.",
+        "image": "mongo.jpg"
+      },
+      {
+        "name": "Machine Learning",
+        "description": "Strong theoretical and practical understanding of machine learning concepts. Developed and trained models achieving over 93% accuracy in language translation tasks.",
+        "image": "ml.png"
+      },
+      {
+        "name": "SQL",
+        "description": "Experienced in designing and managing relational databases. Implemented complex queries and database structures for various applications, ensuring data integrity and efficient retrieval.",
+        "image": "sql.png"
+      },
+      {
+        "name": "Docker",
+        "description": "Proficient in containerization and deployment using Docker. Experience in creating and managing containers for consistent development and production environments.",
+        "image": "docker.jpg"
+      },
+      {
+        "name": "REST APIs",
+        "description": "Skilled in designing and implementing RESTful APIs for web applications. Created robust backend services supporting medical diagnosis tools and AI model interfaces.",
+        "image": "api.jpg"
+      },
+      {
+        "name": "Embedded Systems",
+        "description": "Hands-on experience with embedded systems programming, particularly in robotics. Led team projects utilizing USART32 and other microcontroller technologies.",
+        "image": "embedded.png"
       }
     ]
   },
