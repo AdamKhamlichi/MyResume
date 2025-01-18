@@ -32,7 +32,7 @@ class Resume extends Component {
         var projectImage = "images/tech/" + skills.image;
         return (
           <div key={skills.name} className="skill-item">
-            <img className="skill-icon" alt={skills.name} src={projectImage} />
+            <img className="skill" alt={skills.name} src={projectImage} />
             <h5>{skills.name}</h5>
             <p>{skills.description}</p>
           </div>
@@ -75,7 +75,11 @@ class Resume extends Component {
 
           <div className="nine columns main-col">
             <p className="lead center">{skillmessage}</p>
-            <div className="skills-grid">{skills}</div>
+            <div className="row">
+              <div className="twelve columns">
+                <div className="skills-grid">{skills}</div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

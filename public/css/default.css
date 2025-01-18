@@ -528,8 +528,9 @@ input::-moz-focus-inner {
 
 .skills-grid {
    display: grid;
-   grid-template-columns: repeat(4, 1fr); /* 4 items per row by default */
+   grid-template-columns: repeat(4, 1fr);
    gap: 24px;
+   width: 100%;
    margin-top: 24px;
  }
  
@@ -566,16 +567,15 @@ input::-moz-focus-inner {
    color: #838C95;
  }
  
- /* Responsive adjustments for skills grid */
  @media only screen and (max-width: 1024px) {
    .skills-grid {
-     grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+     grid-template-columns: repeat(3, 1fr);
    }
  }
  
  @media only screen and (max-width: 767px) {
    .skills-grid {
-     grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+     grid-template-columns: repeat(2, 1fr);
      gap: 20px;
    }
    
@@ -586,8 +586,59 @@ input::-moz-focus-inner {
  
  @media only screen and (max-width: 460px) {
    .skills-grid {
-     grid-template-columns: 1fr; /* 1 item per row */
+     grid-template-columns: 1fr;
    }
+ }
+
+ /* Contact Section Styles */
+.contact-details {
+   padding: 30px;
+   border-radius: 3px;
+   margin-bottom: 30px;
+ }
+ 
+ .contact-details h4 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   margin-bottom: 20px;
+   color: #313131;
+ }
+ 
+ .contact-methods p {
+   margin-bottom: 15px;
+   display: flex;
+   align-items: center;
+ }
+ 
+ .contact-methods i {
+   margin-right: 10px;
+   color: #179038;
+   font-size: 20px;
+   width: 25px;
+ }
+ 
+ .social {
+   margin-top: 20px;
+ }
+ 
+ .social a {
+   display: inline-block;
+   margin-right: 15px;
+   font-size: 24px;
+   color: #313131;
+   transition: all .3s ease-in-out;
+ }
+ 
+ .social a:hover {
+   color: #179038;
+ }
+ 
+ .contact-methods a {
+   color: #179038;
+   text-decoration: none;
+ }
+ 
+ .contact-methods a:hover {
+   color: #313131;
  }
 
 /*  7. Forms  --------------------------------------------------------- */
