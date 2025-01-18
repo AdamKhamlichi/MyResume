@@ -3,15 +3,10 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/node",
+      "use": "@vercel/static-build",
       "config": {
-        "maxLambdaSize": "50mb"
+        "distDir": "build"
       }
     }
-  ],
-  "build": {
-    "env": {
-      "NODE_OPTIONS": "--openssl-legacy-provider"
-    }
-  }
+  ]
 }
